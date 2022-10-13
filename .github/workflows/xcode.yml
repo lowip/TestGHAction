@@ -18,7 +18,7 @@ jobs:
         run: |
           xcodebuild \
           -scheme TestGHAction \
-          -workspace TestGHAction.xcodeproj \
+          -project TestGHAction.xcodeproj \
           -configuration Debug \
           -sdk iphonesimulator \
           -destination 'platform=iOS Simulator,name=iPhone 8,OS=16.0' \
